@@ -1,8 +1,10 @@
 import React from 'react';
+import '../components/Projects.css';
 
 
-const Projects = () => (
-  <div>
+const Projects = () => {
+  return (
+  <div className="Projects">
       <h4>Projects</h4>
       <ul>
         <li>Project One</li>
@@ -11,6 +13,7 @@ const Projects = () => (
       </ul>
     </div>
   );
+};
 
 
 export default Projects;

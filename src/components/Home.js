@@ -1,5 +1,5 @@
 import React from "react";
-import sarah from "../components/sarah.png";
+import SarahOscar from "../components/SarahOscar.png";
 import '../components/Home.css';
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="left">
         <div className="welcome-text">
           <h1>Hi! I'm Sarah,</h1>
-          <p>and this is Oscar, but he doesn't code...yet!</p>
+          <p>and this is Oscar, but he doesn't code...<strong>yet!</strong></p>
         </div>
 
         <div className="button">
@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className="right">
         <div className="image">
-          <img src={sarah} alt="Sarah and Oscar" width="500" height="500" />
+          <img src={SarahOscar} alt="Sarah and Oscar" width="500" height="500" />
         </div> 
       </div>           
     </div>

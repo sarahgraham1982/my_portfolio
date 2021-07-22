@@ -1,8 +1,36 @@
 .NavBar {
-    background-color: black;
+    
+    position: fixed; 
+    width: 100%;
+    overflow: hidden;
     
 }
+    
+/* }
 li {
     list-style-type: none;
+/* } */ 
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+
+ul li a:hover{
+    background-color:rgb(255, 0, 149);
+    color: #fff;
+}
+
+.active{
+    background-color: rgb(255, 0, 149);
+    color: #fff;
 }
 
