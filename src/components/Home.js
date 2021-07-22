@@ -4,7 +4,8 @@ import sarah from "../components/sarah.png";
 const Home = () => {
 	return ( 
         <div className="welcome-container">
-            <img src={sarah} alt=""/>
+            <h1>Hi! I am Sarah</h1>
+            <img src={sarah} alt="Sarah and Oscar" width="500" height="500" />
         </div>
     );
   };
