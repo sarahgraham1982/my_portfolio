@@ -7,11 +7,14 @@ const Home = () => {
         <div className="container">
           <div className="welcome-text">
             <h1>Hi, I'm Sarah Graham</h1>
-            <h5>and this is Oscar but he doesn't code...yet!</h5>
+            <h5>and this is Oscar, but he doesn't code...yet!</h5>
           </div>
+          <div className="button">
+            <a href ="/projects">View Projects</a>
+          </div>           
           <div className="image">
             <img src={sarah} alt="Sarah and Oscar" width="500" height="500" />
-          </div>          
+          </div>         
         </div>
     );
   };
