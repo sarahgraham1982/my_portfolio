@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(233, 235, 234);
+  /* background-image: url("/80s_pattern.png");
+  background-repeat: repeat-y; */
+  text-align: center;
 }
 
 
