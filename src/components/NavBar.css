@@ -1,23 +1,32 @@
+/* Nav Container */
+
+.Nav-Container {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Main Nav */
+
 .NavBar {    
     position: fixed; 
-    width: 100%;
-    overflow: hidden;
-    display: inline-block;
-    
+}
+
+.NavBar ul {
+    list-style: none;
+    display: flex;
     
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: right;
-}
-ul li a{
+.NavBar ul li a{
     text-decoration: none;
     color: rgb(255, 0, 149);
-    padding: 10px 20px;
-    font-weight: bold;
-    
+    padding: 20px 10px;
+    font-weight: bold;    
 }
 
 .NavBar ul li a:hover{
@@ -25,18 +34,23 @@ ul li a{
     color: #fff;
 }
 
-.active{
+.NavBar a:active{
     background-color: rgb(255, 0, 149);
     color: #fff;
 }
 
 
-
+/* Social Nav */
 
 .SocialBar {
     position: fixed; 
     width: 100%;
     overflow: hidden;
+    /* display: flex; */
+    display: inherit;
+    align-items: right;
+    
+    
 
     
 }
@@ -45,5 +59,22 @@ ul li a{
     height: 30px ;
     width: 30px;
     margin-right: -20px;
+    
 }
+
+.SocialBar ul {
+    list-style: none;
+    display: flex;
+    
+}
+.SocialBar ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    
+    
+}
+
+
+
+
 
