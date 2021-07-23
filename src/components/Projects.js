@@ -5,7 +5,7 @@ import '../components/Projects.css';
 const Projects = () => {
   return (
   <div className="Projects">
-      <h4>Projects</h4>
+      <h4>Projects.</h4>
       <ul>
         <li>Project One</li>
         <li>Project Two</li>

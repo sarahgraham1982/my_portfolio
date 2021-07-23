@@ -1,4 +1,15 @@
 .Projects {
     padding-top: 65px; 
-
+    background-color: pink;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0px 20px 10px 20px;
+    
 }
+
+.Projects h4 {
+    font-size: 72px;
+}
+
