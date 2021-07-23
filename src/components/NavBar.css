@@ -5,7 +5,7 @@
     flex-direction: row;
     width: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -19,13 +19,14 @@
     border: 1px solid red; 
     
     
+    
+    
 }
 
 .NavBar ul {
     list-style: none;
     display: flex;
-    
-    
+    padding-left: 0;
 }
 
 .NavBar ul li a{
@@ -65,8 +66,8 @@
 }
 
 .SocialBar img {
-    height: 20px ;
-    width: 20px;
+    height: 25px ;
+    width: 25px;
     margin-right: 20px;
     
     
@@ -76,6 +77,7 @@
 .SocialBar ul {
     list-style: none;
     display: flex;
+    padding-left: 20px;
     
     
 }
