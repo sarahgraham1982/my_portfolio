@@ -1,5 +1,6 @@
 .welcome-container {
     padding-top: 65px; 
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
     width: 100%;

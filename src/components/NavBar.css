@@ -1,17 +1,11 @@
-.NavBar {
-    
+.NavBar {    
     position: fixed; 
     width: 100%;
     overflow: hidden;
     display: inline-block;
-    float: left;
+    
     
 }
-    
-/* }
-li {
-    list-style-type: none;
-/* } */ 
 
 ul {
     list-style: none;
@@ -26,7 +20,7 @@ ul li a{
     
 }
 
-ul li a:hover{
+.NavBar ul li a:hover{
     background-color:rgb(255, 0, 149);
     color: #fff;
 }
@@ -37,18 +31,19 @@ ul li a:hover{
 }
 
 
+
+
 .SocialBar {
     position: fixed; 
     width: 100%;
     overflow: hidden;
-    display: inline-block;
-    float: right;
+
     
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: left;
+.SocialBar img {
+    height: 30px ;
+    width: 30px;
+    margin-right: -20px;
 }
 
