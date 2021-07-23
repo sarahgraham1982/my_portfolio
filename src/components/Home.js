@@ -1,5 +1,5 @@
 import React from "react";
-import SarahOscar from "../components/SarahOscar.png";
+// import SarahOscar from "SarahOscar.png";
 import '../components/Home.css';
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className="right">
         <div className="image">
-          <img src={SarahOscar} alt="Sarah and Oscar" width="500" height="500" />
+          <img src="/SarahOscar.png" alt="Sarah and Oscar" width="500" height="500" />
         </div> 
       </div>           
     </div>
