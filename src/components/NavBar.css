@@ -5,12 +5,13 @@
     /* align-items: center; */
     /* justify-content: space-between; */
     /* margin-top: 20px; */
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
     /* padding:20px 20px 20px 20px;  */
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: rgb(213, 238, 250);
 }
 
 
@@ -49,8 +50,8 @@
   
 .SocialBar {    
     overflow: hidden;
-    margin-right: 70px;
-    margin-top: -10px;
+    margin-right: 50px;
+    margin-top: -20px;
     
 }
 
