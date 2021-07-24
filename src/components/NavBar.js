@@ -22,8 +22,8 @@ const NavBar = () => {
             <Link to="/projects">Projects</Link>
           </li>
         </ul>
-      </div>
-      <div className="SocialBar">
+       {/* </div>  */}
+        <div className="SocialBar">
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/sarahvgraham/">
@@ -38,6 +38,7 @@ const NavBar = () => {
             <img alt="Instagram" src="/Instagram.png"></img></a>
           </li>
         </ul>
+        </div>
       </div>
     </div>  
   </>
