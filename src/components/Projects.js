@@ -5,7 +5,8 @@ import '../components/Projects.css';
 const Projects = () => {
   return (
   <div className="Projects">
-      <h4>Projects.</h4>
+      <h1>Projects.</h1>
+      <h3>"I enjoy being creative with my projects and love to see my code work!"</h3>
       <ul>
         <li>Project One</li>
         <li>Project Two</li>
