@@ -8,9 +8,8 @@ const Projects = () => {
       <h1>Projects.</h1>
       <h3>"I enjoy being creative with my projects and love to see my code work!"</h3>
       <ul>
-        <li>Project One</li>
-        <li>Project Two</li>
-        <li>Project Three</li>
+        <li><strong>BAND TEASE</strong></li>
+        A solo Python project, completed in 7 days, utilizing Flask, PostgreSQL, OOP, TDD, RESTful routes, HTML and CSS. This project was fun and I especially enjoyed working with the database. <a href="https://github.com/sarahgraham1982/band_tease">Click to view the repo on GitHub</a>
       </ul>
     </div>
   );

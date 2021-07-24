@@ -9,6 +9,12 @@
     
 }
 
+.Projects li {
+    list-style-type:none;
+    
+    
+}
+
 .Projects h1 {
     font-size: 72px;
 }
