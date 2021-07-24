@@ -15,10 +15,10 @@
     font-size: 72px;
 }
 
-/* .About p {
-    width: 800px;
+.About p {
+    font-size: 20px;
     text-align: center;
-} */
+}
 
 .image {
     animation: fadeIn 5s;

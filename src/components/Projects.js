@@ -9,12 +9,13 @@ const Projects = () => {
       <h3>"I enjoy being creative with my projects and love to see my code work!"</h3>
       <ul>
         <li><strong>BAND TEASE</strong></li>
-
+        </ul>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jSokYTC4NYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      </ul>
-        A solo Python project, completed in 7 days, utilizing Flask, PostgreSQL, OOP, TDD, RESTful routes, HTML and CSS. This project was fun and I especially enjoyed working with the database. 
-      {/* </ul> */}
+      
+        <p>A solo Python project, completed in 7 days, utilizing Flask, PostgreSQL, OOP, TDD, RESTful routes, HTML and CSS.</p>
+        <p>This project was fun and I especially enjoyed working with the database.</p> 
+      
       <p><a href="https://github.com/sarahgraham1982/band_tease">View the repo on GitHub</a></p>
     </div>
   );

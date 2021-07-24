@@ -13,11 +13,19 @@
 
 .Projects li {
     list-style-type:none;
-    
-    
+        
 }
 
 .Projects h1 {
     font-size: 72px;
+}
+
+.Projects p {
+    font-size: 14px;
+}
+
+.Projects ul {
+    align-items: center;
+
 }
 
