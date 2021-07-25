@@ -13,20 +13,20 @@ const About = () => {
         <p>
           In my spare time, I enjoy going to see 90s indie bands and obscure stand-up comedy, decorating my new home and going for long walks with my dog. 
         </p>
-      {/* </div> */}
+      
 
         <div className="row">
           <div className="column">
-            <img src="sarah.jpg" alt="sarah"/>
+            <img src="sarah.jpg" alt="sarah" width="50" height="50"/>
           </div>
           <div className="column">
-            <img src="oscar.jpg" alt="oscar"/>
+            <img src="oscar.jpg" alt="oscar" width="50" height="50"/>
           </div>
           <div className="column">
-            <img src="liam.jpg" alt="liam"/>
+            <img src="liam.jpg" alt="liam" width="50" height="50"/>
           </div>
           <div className="column">
-            <img src="trainer.jpg" alt="trainer"/>
+            <img src="trainer.jpg" alt="trainer" width="50" height="50"/>
           </div>
         </div>
       </div>

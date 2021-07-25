@@ -1,5 +1,4 @@
 import React from "react";
-// import SarahOscar from "SarahOscar.png";
 import '../components/Home.css';
 
 const Home = () => {
