@@ -17,16 +17,16 @@ const About = () => {
 
         <div className="row">
           <div className="column">
-            <img src="/sarah.png" alt="sarah" width="50" height="50"/>
+            <img src="/sarah.png" alt="sarah" width="180" height="180"/>
           </div>
           <div className="column">
-            <img src="/oscar.png" alt="oscar" width="50" height="50"/>
+            <img src="/oscar.png" alt="oscar" width="180" height="180"/>
           </div>
           <div className="column">
-            <img src="/liam.png" alt="liam" width="50" height="50"/>
+            <img src="/liam.png" alt="liam" width="180" height="180"/>
           </div>
           <div className="column">
-            <img src="/trainer.png" alt="trainer" width="50" height="50"/>
+            <img src="/trainer.png" alt="trainer" width="180" height="180"/>
           </div>
         </div>
       </div>
