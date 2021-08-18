@@ -3,12 +3,16 @@
     background-color: pink;
     border-radius: 25px;
     text-align: center;
-    width: 800px;
-    height: 600px;
+    /* width: 800px; */
+    /* height: 600px; */
     margin: 0 auto;
     padding: 0px 20px 10px 20px;
     
-    
+    position: relative;
+    height: auto;
+    max-width: 800px; 
+    margin-bottom: 50px;
+      
 }
 
 .About h1 {
@@ -21,14 +25,22 @@
 }
 
 
+
+
   
   
 .row {
     display: flex;
+    flex-wrap:wrap;    
+    align-items: center;
+    justify-content: center;
+    
+    
+    
 }
   
 .column {
-  flex: 25%;
+  /* flex: 25%; */
   padding: 5px;
 }
 
