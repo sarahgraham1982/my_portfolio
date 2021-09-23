@@ -37,6 +37,7 @@ const NavBar = () => {
           <a href="https://www.instagram.com/themarveloussvg">
             <img alt="Instagram" src="/Instagram.png"></img></a>
           </li>
+          
         </ul>
         </div>
       </div>
